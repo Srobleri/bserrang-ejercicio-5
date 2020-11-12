@@ -3,14 +3,14 @@
 
 let a: number;
 let b: string;
-let c: any;
+let c: number | boolean;
 
 a = 5;
 b = "texto";
-(c as boolean)= true;
+c = true;
 
 if (Math.random() >= 0.5) {
-  (c as number) = 100;
+  c = 100;
 }
 
 function d(param1: number, param2: number) {
